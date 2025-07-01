@@ -14,7 +14,7 @@ def me(message='ping', high_priority=False, scheme='https', topic=None):
     """
     topic = os.getenv('NTFY_TOPIC', topic)
     if not topic:
-        raise EnvironmentError(f"Topic is not set.")
+        raise AttributeError(f"Topic is not set.")
 
     url = f"{scheme}://ntfy.sh/{topic}"
     priority = 5 if high_priority else 4
