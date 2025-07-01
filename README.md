@@ -7,7 +7,7 @@ A minimal Python utility to send notifications to [`ntfy.sh`](https://ntfy.sh) f
 - Send push notifications to your `ntfy.sh` topic
 - Adjustable priority (`high` or `normal`)
 - Configurable scheme (HTTP/HTTPS)
-- Uses environment variable for topic (no hardcoding!)
+- Uses environment variable or argument for topic
 
 ## Usage
 
