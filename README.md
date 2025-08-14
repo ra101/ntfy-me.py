@@ -23,7 +23,7 @@ import ntfy
 nyfy.me()
 
 # curl "http://ntfy.sh/World" -d Hello -h 'p: 5'
-nyfy.me(message='Hello', high_priority=True, scheme='http', topic=World)
+nyfy.me(message='Hello', high_priority=True, scheme='http', topic='World')
 ```
 
 Enjoy!
